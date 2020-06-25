@@ -1,4 +1,5 @@
 import React from 'react';
+import ConsLetter from './ConsLetter';
 import './consignors.css';
 
 function Consignors() {
@@ -22,14 +23,7 @@ function Consignors() {
           <p>PLUS you get 10% off of your purchase when you use your consignor credit in-store!!</p>
         </div>
         <div className="consPDF">
-          <div className="PDFBox">
-            <img
-              className="PDFImg"
-              src="/images/ConsPDFImgLetter.png"
-              alt="RDR Consignor Letter"
-            />
-            <p>Letter to Consignors (PDF)</p>
-          </div>
+          <ConsLetter />
           <div className="PDFBox">
             <img
               className="PDFImg"
